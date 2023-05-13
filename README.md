@@ -7,7 +7,8 @@ Trying to handle Python efficiently as an analysis tool...🛠
 <br/>
 <br/>
 <br/>
-## Python assignments
+
+_PYTHON ASSIGNMENTS_
 <br/>
 2023.03.17
 
