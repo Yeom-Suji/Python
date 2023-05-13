@@ -1,0 +1,171 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "95033fc7",
+   "metadata": {},
+   "source": [
+    "\"과제\" 실습한 영화랭킹의 날짜별 페이지 파싱 을 날짜를 입력받아 완성하세요.\n",
+    "데이터크롤링1-03BS4_Start-0.ipynb 에서 실습한 네이버 영화랭킹 날짜별 파싱을 변경\n",
+    "날짜를 입력받아 해당 페이지 파싱\n",
+    "함수 사용 권장. 예) download_naver_movie('2023-03-10')\n",
+    "참고:\n",
+    "현재 랭킹 페이지: https://movie.naver.com/movie/sdb/rank/rmovie.naver\n",
+    "날짜 랭킹 페이지 : https://movie.naver.com/movie/sdb/rank/rmovie.naver?sel=cnt&tg=0&date=20221120\n",
+    "일자별 랭킹 페이지: URL?date=yyyymmdd 형식\n",
+    "결과를 노트북으로 작성해 업로드 해주세요\n",
+    "과제폴더 \"파이썬 프로젝트2/2023.03.21=3\"\n",
+    "이름_20230323_과제.ipynb"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "048ee3c0",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "from bs4 import BeautifulSoup\n",
+    "import requests"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "ab089bd2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "날짜:20230322\n",
+      "1: 스즈메의 문단속\n",
+      "2: 웅남이\n",
+      "3: 소울메이트\n",
+      "4: 샤잠! 신들의 분노\n",
+      "5: 더 퍼스트 슬램덩크\n",
+      "6: 파벨만스\n",
+      "7: 귀멸의 칼날: 상현집결, 그리고 도공 마을로\n",
+      "8: 대외비\n",
+      "9: 멍뭉이\n",
+      "10: 에브리씽 에브리웨어 올 앳 원스+\n",
+      "11: 플레인\n",
+      "12: 다음 소희\n",
+      "13: 아임 히어로 더 파이널\n",
+      "14: 똑똑똑\n",
+      "15: 서치 2\n",
+      "16: 모나리자와 블러드 문\n",
+      "17: 이니셰린의 밴시\n",
+      "18: 마루이 비디오\n",
+      "19: 앤트맨과 와스프: 퀀텀매니아\n",
+      "20: 드림\n",
+      "21: 보스턴 교살자\n",
+      "22: 던전 앤 드래곤: 도적들의 명예\n",
+      "23: 카운트\n",
+      "24: 오토라는 남자\n",
+      "25: 어쩌면 우린 헤어졌는지 모른다\n",
+      "26: 어떤 영웅\n",
+      "27: 더 웨일\n",
+      "28: 바빌론\n",
+      "29: TAR 타르\n",
+      "30: 리바운드\n",
+      "31: 옥수역귀신\n",
+      "32: 에브리씽 에브리웨어 올 앳 원스\n",
+      "33: 에어\n",
+      "34: 아바타: 물의 길\n",
+      "35: 존 윅 4\n",
+      "36: 스파이 코드명 포춘\n",
+      "37: 교섭\n",
+      "38: 곰돌이 푸: 피와 꿀\n",
+      "39: 렌필드\n",
+      "40: 아기공룡 둘리 : 얼음별 대모험 4K 리마스터링\n",
+      "41: 거울 속 외딴 성\n",
+      "42: 물안에서\n",
+      "43: 그대 어이가리\n",
+      "44: 너의 이름은.\n",
+      "45: 서부 전선 이상 없다\n",
+      "46: 팔로우드\n",
+      "47: 날씨의 아이\n",
+      "48: 포커페이스\n",
+      "49: 가디언즈 오브 갤럭시: Volume 3\n",
+      "50: 리벤져\n"
+     ]
+    }
+   ],
+   "source": [
+    "date = input('날짜:')\n",
+    "url = f'https://movie.naver.com/movie/sdb/rank/rmovie.naver?sel=cnt&tg=0&date={date}'\n",
+    "\n",
+    "answer = requests.get(url)\n",
+    "soup = BeautifulSoup(answer.text, 'html.parser')\n",
+    "movie = soup.select('td.title')\n",
+    "\n",
+    "for i in range(len(movie)):\n",
+    "    name = movie[i].select('div.tit3 > a')[0].text\n",
+    "    print(f'{i + 1}: {name}')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "71de732b",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "cc695e83",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "7470d4ae",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0dd1ccd4",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "341fb4cd",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.9.13"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
