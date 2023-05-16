@@ -10,3 +10,7 @@ Trying to handle Python efficiently as an analysis tool...🛠
 
 _Programmers Coding Test Practice_
 <br/>
+Lev.1
+
+
+
