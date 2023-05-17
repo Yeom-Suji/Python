@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Python%20Data&fontSize=60)
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Python&fontSize=60)
 
 Trying to handle Python efficiently as an analysis tool...🛠
 
