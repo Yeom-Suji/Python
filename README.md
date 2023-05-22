@@ -19,9 +19,9 @@ Trying to handle Python efficiently as an analysis tool...🛠
 [Day 5](https://github.com/Sehun-github/Fiery/blob/main/%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8/%EC%97%BC%EC%88%98%EC%A7%80/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4%20Lev1_35%EB%B2%88%EA%B9%8C%EC%A7%80.ipynb)<br/>
 Day 6<br/>
 Day 7<br/>
-Day 8
-Day 9
-Day 10
+Day 8<br/>
+Day 9<br/>
+Day 10<br/>
 <br/>
 <br/>
 ## _Python Projects_
