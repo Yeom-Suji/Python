@@ -21,8 +21,8 @@ Trying to handle Python efficiently as an analysis tool...🛠
 > [Day 6](https://github.com/Sehun-github/Fiery/blob/main/%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8/%EC%97%BC%EC%88%98%EC%A7%80/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4%20Lev1_42%EB%B2%88%EA%B9%8C%EC%A7%80.ipynb)<br/>
 > [Day 7](https://github.com/Sehun-github/Fiery/blob/main/%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8/%EC%97%BC%EC%88%98%EC%A7%80/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4%20Lev1_49%EB%B2%88%EA%B9%8C%EC%A7%80.ipynb)<br/>
 > [Day 8](https://github.com/Sehun-github/Fiery/blob/main/%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8/%EC%97%BC%EC%88%98%EC%A7%80/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4%20Lev1_56%EB%B2%88%EA%B9%8C%EC%A7%80.ipynb)<br/>
-> Day 9<br/>
-> Day 10<br/>
+> [Day 9](https://github.com/Sehun-github/Fiery/blob/main/%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8/%EC%97%BC%EC%88%98%EC%A7%80/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4%20Lev1_63%EB%B2%88%EA%B9%8C%EC%A7%80.ipynb)<br/>
+> [Day 10](https://github.com/Sehun-github/Fiery/blob/main/%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8/%EC%97%BC%EC%88%98%EC%A7%80/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4%20Lev1_70%EB%B2%88%EA%B9%8C%EC%A7%80.ipynb)<br/>
 > 
 <br/>
 <br/>
